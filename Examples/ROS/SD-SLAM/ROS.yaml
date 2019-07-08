@@ -17,6 +17,7 @@ Camera.p2: 0.0
 
 Camera.Width: 640
 Camera.Height: 480
+
 # ROS
 ROS.CameraTopic: "/raspicam/image_rect"
 ROS.DepthTopic: "/camera/depth/image_raw"
