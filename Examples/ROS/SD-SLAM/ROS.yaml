@@ -5,22 +5,20 @@
 #--------------------------------------------------------------------------------------------
 
 # Camera calibration and distortion parameters (OpenCV)
-Camera.Width: 640
-Camera.Height: 480
-Camera.fx: 520.908620
-Camera.fy: 521.007327
-Camera.cx: 325.141442
-Camera.cy: 249.701764
+Camera.fx: 349.940001
+Camera.fy: 353.291569
+Camera.cx: 327.261401
+Camera.cy: 244.791825
 
 Camera.k1: 0.0
 Camera.k2: 0.0
 Camera.p1: 0.0
 Camera.p2: 0.0
-Camera.k3: 0.0
+
+Camera.Width: 640
+Camera.Height: 480
 
 # ROS
-ROS.CameraTopic: "/camera/rgb/image_raw"
+ROS.CameraTopic: "/raspicam/image_rect"
 ROS.DepthTopic: "/camera/depth/image_raw"
 ROS.IMUTopic: "/imu_data"
-ROS.BaseFrame: "odom"
-ROS.CameraFrame: "camera_link"
